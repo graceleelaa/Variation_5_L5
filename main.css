@@ -24,47 +24,29 @@ body{
 	z-index: -1;
 }
 
-.main-2{
-	position: absolute;
-	top:300px;
-	right: 100px;
-	height: 100%;
-	opacity: 0.5;
-	z-index: 100;
-}
-
-.main-3{
-	position: absolute;
-	top:330px;
-	right: 142px;
-	height: 100%;
-	opacity: 0.2;
-	z-index: 100;
-}
-
 .circle-outline{
 	transition: width 1s ease, 
 				height 1s ease, 
 				-moz-border-radius 1s ease
 				-webkit-border-radius 1s ease
 				border-radius 1s ease;
-	width: 500px;
-	height: 500px;
-	border: 3px dotted #0000ff;
+	width: 200px;
+	height: 200px;
+	border: 4px dotted #FF5AD9;
 	-moz-border-radius: 50px;
 	-webkit-border-radius: 50px;
 	border-radius: 50px;
-	float: center;
+	float: left;
 	margin: 15px;
 }
 
 .circle-outline:hover{
-	width: 200px;
-	height: 200px;
+	width: 150px;
+	height: 150px;
 	-moz-border-radius: 100px;
 	-webkit-border-radius: 100px;
 	border-radius: 100px;
-	float: center;
+	float: left;
 	margin: 15px;
 }
 
